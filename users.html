@@ -1,0 +1,118 @@
+ <!-- User Management Section -->
+ <section id="users" class="section active">
+    <h1 class="page-title">Manajemen Pengguna</h1>
+    
+    <!-- Search and Filter -->
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Cari pengguna berdasarkan nama, email, atau ID...">
+        <button class="search-btn">Cari</button>
+    </div>
+    
+    <div class="filter-container">
+        <select class="filter-select">
+            <option>Semua Status</option>
+            <option>Aktif</option>
+            <option>Pending</option>
+            <option>Dibekukan</option>
+        </select>
+        <button class="action-btn">+ Tambah Pengguna</button>
+    </div>
+    
+    <!-- User List -->
+    <div class="user-list">
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>Pengguna</th>
+                    <th>Email</th>
+                    <th>Terdaftar</th>
+                    <th>Status</th>
+                    <th>Verifikasi</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="user-name">
+                            <div class="user-avatar">BS</div>
+                            <div>Budi Santoso</div>
+                        </div>
+                    </td>
+                    <td>budi@example.com</td>
+                    <td>15 Jan 2025</td>
+                    <td><span class="user-status status-active">Aktif</span></td>
+                    <td>Terverifikasi</td>
+                    <td>
+                        <span class="user-action">Lihat</span>
+                        <span class="user-action">Edit</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="user-name">
+                            <div class="user-avatar">SP</div>
+                            <div>Sarah Putri</div>
+                        </div>
+                    </td>
+                    <td>sarah@example.com</td>
+                    <td>22 Mar 2025</td>
+                    <td><span class="user-status status-pending">Pending</span></td>
+                    <td>Menunggu</td>
+                    <td>
+                        <span class="user-action">Lihat</span>
+                        <span class="user-action">Edit</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="user-name">
+                            <div class="user-avatar">DW</div>
+                            <div>Deni Wijaya</div>
+                        </div>
+                    </td>
+                    <td>deni@example.com</td>
+                    <td>8 Feb 2025</td>
+                    <td><span class="user-status status-suspended">Dibekukan</span></td>
+                    <td>Terverifikasi</td>
+                    <td>
+                        <span class="user-action">Lihat</span>
+                        <span class="user-action">Edit</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="user-name">
+                            <div class="user-avatar">RD</div>
+                            <div>Rahmat Darmawan</div>
+                        </div>
+                    </td>
+                    <td>rahmat@example.com</td>
+                    <td>3 Apr 2025</td>
+                    <td><span class="user-status status-active">Aktif</span></td>
+                    <td>Terverifikasi</td>
+                    <td>
+                        <span class="user-action">Lihat</span>
+                        <span class="user-action">Edit</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="user-name">
+                            <div class="user-avatar">LA</div>
+                            <div>Lisa Angelina</div>
+                        </div>
+                    </td>
+                    <td>lisa@example.com</td>
+                    <td>17 Mar 2025</td>
+                    <td><span class="user-status status-active">Aktif</span></td>
+                    <td>Terverifikasi</td>
+                    <td>
+                        <span class="user-action">Lihat</span>
+                        <span class="user-action">Edit</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>

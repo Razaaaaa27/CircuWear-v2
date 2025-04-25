@@ -1,0 +1,106 @@
+ <!-- Order Management Section -->
+ <section id="orders" class="section active">
+    <h1 class="page-title">Manajemen Pesanan</h1>
+    
+    <!-- Search and Filter -->
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Cari pesanan berdasarkan ID, nama pelanggan...">
+        <button class="search-btn">Cari</button>
+    </div>
+    
+    <div class="filter-container">
+        <select class="filter-select">
+            <option>Semua Status</option>
+            <option>Diproses</option>
+            <option>Dikirim</option>
+            <option>Diterima</option>
+            <option>Dikembalikan</option>
+        </select>
+        <select class="filter-select">
+            <option>Semua Tanggal</option>
+            <option>Hari Ini</option>
+            <option>Minggu Ini</option>
+            <option>Bulan Ini</option>
+        </select>
+        <button class="action-btn">+ Tambah Pesanan</button>
+    </div>
+    
+    <!-- Order List -->
+    <div class="order-list">
+        <table class="order-table">
+            <thead>
+                <tr>
+                    <th>ID Pesanan</th>
+                    <th>Pelanggan</th>
+                    <th>Tanggal Sewa</th>
+                    <th>Tanggal Kembali</th>
+                    <th>Status</th>
+                    <th>Total</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="order-id">ORD-2504-001</td>
+                    <td>Budi Santoso</td>
+                    <td>25 Apr 2025</td>
+                    <td>28 Apr 2025</td>
+                    <td><span class="order-status status-processing">Diproses</span></td>
+                    <td>Rp 600.000</td>
+                    <td>
+                        <span class="user-action">Detail</span>
+                        <span class="user-action">Edit</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="order-id">ORD-2404-015</td>
+                    <td>Sarah Putri</td>
+                    <td>24 Apr 2025</td>
+                    <td>26 Apr 2025</td>
+                    <td><span class="order-status status-shipped">Dikirim</span></td>
+                    <td>Rp 300.000</td>
+                    <td>
+                        <span class="user-action">Detail</span>
+                        <span class="user-action">Lacak</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="order-id">ORD-2304-008</td>
+                    <td>Rahmat Darmawan</td>
+                    <td>23 Apr 2025</td>
+                    <td>25 Apr 2025</td>
+                    <td><span class="order-status status-delivered">Diterima</span></td>
+                    <td>Rp 440.000</td>
+                    <td>
+                        <span class="user-action">Detail</span>
+                        <span class="user-action">Konfirmasi</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="order-id">ORD-2104-003</td>
+                    <td>Lisa Angelina</td>
+                    <td>21 Apr 2025</td>
+                    <td>23 Apr 2025</td>
+                    <td><span class="order-status status-returned">Dikembalikan</span></td>
+                    <td>Rp 360.000</td>
+                    <td>
+                        <span class="user-action">Detail</span>
+                        <span class="user-action">Review</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="order-id">ORD-2004-012</td>
+                    <td>Deni Wijaya</td>
+                    <td>20 Apr 2025</td>
+                    <td>22 Apr 2025</td>
+                    <td><span class="order-status status-returned">Dikembalikan</span></td>
+                    <td>Rp 500.000</td>
+                    <td>
+                        <span class="user-action">Detail</span>
+                        <span class="user-action">Review</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>

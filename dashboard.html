@@ -1,0 +1,199 @@
+  <!-- Dashboard Section -->
+            <section id="dashboard" class="section active">
+                <h1 class="page-title">Dasbor Utama</h1>
+                
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-title">Total Sewa Aktif</div>
+                        <div class="stat-value">128</div>
+                        <div class="stat-change positive">↑ 12% dari bulan lalu</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-title">Pendapatan Hari Ini</div>
+                        <div class="stat-value">Rp 5.380.000</div>
+                        <div class="stat-change positive">↑ 8% dari kemarin</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-title">Pengembalian Tertunda</div>
+                        <div class="stat-value">15</div>
+                        <div class="stat-change negative">↑ 3 dari kemarin</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-title">Pakaian Tersedia</div>
+                        <div class="stat-value">428</div>
+                        <div class="stat-change">dari total 580</div>
+                    </div>
+                </div>
+
+                <!-- Charts -->
+                <div class="charts-grid">
+                    <!-- Revenue Chart -->
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <div class="chart-title">Pendapatan Harian</div>
+                            <div class="chart-actions">
+                                <select class="chart-select">
+                                    <option>7 Hari Terakhir</option>
+                                    <option>30 Hari Terakhir</option>
+                                    <option>Tahun Ini</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Line Chart -->
+<div class="mock-chart">
+    <svg viewBox="0 0 300 200" class="line-chart">
+        <!-- Grid -->
+        <line x1="0" y1="180" x2="300" y2="180" stroke="#e2e8f0" stroke-width="1"/>
+        <line x1="0" y1="120" x2="300" y2="120" stroke="#e2e8f0" stroke-width="1"/>
+        <line x1="0" y1="60" x2="300" y2="60" stroke="#e2e8f0" stroke-width="1"/>
+
+        <!-- Data line -->
+        <polyline 
+            fill="none"
+            stroke="var(--primary)"
+            stroke-width="2"
+            points="0,160 50,140 100,100 150,80 200,90 250,70 300,60"
+        />
+
+        <!-- Data points -->
+        <circle cx="0" cy="160" r="3" fill="var(--primary)" />
+        <circle cx="50" cy="140" r="3" fill="var(--primary)" />
+        <circle cx="100" cy="100" r="3" fill="var(--primary)" />
+        <circle cx="150" cy="80" r="3" fill="var(--primary)" />
+        <circle cx="200" cy="90" r="3" fill="var(--primary)" />
+        <circle cx="250" cy="70" r="3" fill="var(--primary)" />
+        <circle cx="300" cy="60" r="3" fill="var(--primary)" />
+    </svg>
+
+    <!-- X-axis Labels -->
+    <div class="mock-x-axis">
+        <div class="mock-x-label">Sen</div>
+        <div class="mock-x-label">Sel</div>
+        <div class="mock-x-label">Rab</div>
+        <div class="mock-x-label">Kam</div>
+        <div class="mock-x-label">Jum</div>
+        <div class="mock-x-label">Sab</div>
+        <div class="mock-x-label">Min</div>
+    </div>
+</div>
+
+                    </div>
+
+                    <!-- Categories Chart -->
+                    <div class="chart-container">
+                        <div class="chart-header">
+                            <div class="chart-title">Kategori Populer</div>
+                        </div>
+                        <div class="mock-pie-chart"></div>
+                        <div class="mock-pie-legend">
+                            <div class="legend-item">
+                                <div class="legend-color" style="background-color: var(--primary);"></div>
+                                <div>Gaun Formal (45%)</div>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background-color: var(--secondary);"></div>
+                                <div>Jas Pria (20%)</div>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background-color: var(--warning);"></div>
+                                <div>Aksesoris (20%)</div>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color" style="background-color: var(--gray-light);"></div>
+                                <div>Lainnya (15%)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alerts and Calendar -->
+                <div class="widgets-grid">
+                    <!-- Alerts -->
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">Notifikasi Penting</div>
+                            <div class="widget-action">Lihat Semua</div>
+                        </div>
+                        <div class="alert-list">
+                            <div class="alert-item">
+                                <div class="alert-icon">!</div>
+                                <div class="alert-content">
+                                    <div class="alert-title">Stok Rendah</div>
+                                    <div class="alert-message">Stok gaun formal hitam (S) tinggal 2 buah</div>
+                                </div>
+                            </div>
+                            <div class="alert-item warning">
+                                <div class="alert-icon">⚠️</div>
+                                <div class="alert-content">
+                                    <div class="alert-title">Keterlambatan Pengembalian</div>
+                                    <div class="alert-message">3 pesanan terlambat pengembalian lebih dari 2 hari</div>
+                                </div>
+                            </div>
+                            <div class="alert-item">
+                                <div class="alert-icon">!</div>
+                                <div class="alert-content">
+                                    <div class="alert-title">Perawatan Diperlukan</div>
+                                    <div class="alert-message">5 item memerlukan perawatan setelah pengembalian</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Calendar -->
+                    <div class="widget">
+                        <div class="widget-header">
+                            <div class="widget-title">Jadwal Pengiriman & Pengembalian</div>
+                            <div class="widget-action">Lihat Kalender</div>
+                        </div>
+                        <div class="calendar-container">
+                            <div class="calendar-header">
+                                <div>Min</div>
+                                <div>Sen</div>
+                                <div>Sel</div>
+                                <div>Rab</div>
+                                <div>Kam</div>
+                                <div>Jum</div>
+                                <div>Sab</div>
+                            </div>
+                            <div class="calendar-grid">
+                                <div class="calendar-day inactive">30</div>
+                                <div class="calendar-day inactive">31</div>
+                                <div class="calendar-day">1</div>
+                                <div class="calendar-day">2</div>
+                                <div class="calendar-day has-event">3</div>
+                                <div class="calendar-day">4</div>
+                                <div class="calendar-day">5</div>
+                                <div class="calendar-day">6</div>
+                                <div class="calendar-day has-event">7</div>
+                                <div class="calendar-day">8</div>
+                                <div class="calendar-day">9</div>
+                                <div class="calendar-day has-event">10</div>
+                                <div class="calendar-day">11</div>
+                                <div class="calendar-day">12</div>
+                                <div class="calendar-day">13</div>
+                                <div class="calendar-day">14</div>
+                                <div class="calendar-day has-event">15</div>
+                                <div class="calendar-day">16</div>
+                                <div class="calendar-day">17</div>
+                                <div class="calendar-day today has-event">18</div>
+                                <div class="calendar-day">19</div>
+                                <div class="calendar-day">20</div>
+                                <div class="calendar-day has-event">21</div>
+                                <div class="calendar-day">22</div>
+                                <div class="calendar-day">23</div>
+                                <div class="calendar-day">24</div>
+                                <div class="calendar-day">25</div>
+                                <div class="calendar-day has-event">26</div>
+                                <div class="calendar-day">27</div>
+                                <div class="calendar-day">28</div>
+                                <div class="calendar-day">29</div>
+                                <div class="calendar-day">30</div>
+                                <div class="calendar-day inactive">1</div>
+                                <div class="calendar-day inactive">2</div>
+                                <div class="calendar-day inactive">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
